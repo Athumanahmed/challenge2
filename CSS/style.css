@@ -41,8 +41,8 @@ img{
     border-radius: 50%;
 }
 .images{
-    margin: 0px 30px 10px 30px;
-    padding: 5px 10px;
+    margin:0;
+    padding: 5px 35px;
     display: flex;
     flex-direction: row;
 }
@@ -59,7 +59,7 @@ img{
 }
 
 .form-inputs{
-    margin:0px 10px;
+    margin:0px 40px;
     padding: 20px;
 }
 
@@ -82,7 +82,7 @@ img{
 input{
 outline: none;
 margin: 10px;
-padding: 10px 45px;
+padding: 10px 30px;
 background: transparent;
 border: 1.4px solid gray;
 border-radius: 30px;
@@ -95,7 +95,7 @@ color:whitesmoke;
 
 .username i{
     top: 20px;
-    left: 35px;
+    left: 20px;
     position:absolute;
     color: gray;
 }
@@ -106,7 +106,7 @@ color:whitesmoke;
 
 .email i{
     top: 20px;
-    left: 35px;
+    left: 20px;
     position:absolute;
     color:gray;
     
@@ -118,7 +118,7 @@ color:whitesmoke;
 
 .password i{
     top: 20px;
-    left: 35px;
+    left: 20px;
     position:absolute;
     color: grey;
 }
@@ -134,9 +134,9 @@ color:whitesmoke;
 }
 
 button{
-    padding: 11px 100px ;
+    padding: 11px 80px ;
     border: none;
-    margin-left: 1px;
+    margin:10px 0 0 0 ;
     border-radius: 30px;
     color: whitesmoke;
     font-size: 1rem;
@@ -151,7 +151,7 @@ button:hover{
     transition: 0.6s ease;
 }
 .text{
-    margin: 20px;
+    margin: 15px;
     color: whitesmoke;
     letter-spacing: 1px;
     font-size: small;
